@@ -1,7 +1,7 @@
 ##################################** Prequisites **#############################################
 
 	**Download .jar file for Burp Suite Pro from**
-		--> https://portswigger.net/burp/releases/download?product=pro&version=2021.2.1&type=Jar
+		--> https://portswigger.net/burp/releases/download?product=pro&version=2021.7&type=Jar
 	**Download Burp Loader files. Then Follow Below Steps for Activation**
 		--> https://github.com/SNGWN/Burp-Loader/archive/main.zip
 	**If using in Windows 10, Download and Install Java and JDK**
