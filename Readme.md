@@ -1,7 +1,7 @@
 ##################################** Prequisites **#############################################
 
 	**Download .jar file for Burp Suite Pro from**
-		--> https://portswigger.net/burp/releases/download?product=pro&version=2021.7&type=Jar
+		--> https://portswigger.net/burp/releases/download?product=pro&version=2021.10.3&type=Jar
 	**Download Burp Loader files. Then Follow Below Steps for Activation**
 		--> https://github.com/SNGWN/Burp-Loader/archive/main.zip
 	**If using in Windows 10, Download and Install Java and JDK**
@@ -14,9 +14,9 @@
 		For Example lets take as --> C:\Users\Siddharth\Downloads\burp-suite\
 	----------------------------------------------
 	**2.1 Run This Command for Windows in CMD Prompt.**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:'C:\Users\siddh\Downloads\burp-suite\loader.jar' -noverify -jar 'C:\Users\Siddharth\Downloads\burp-suite\burpsuite_pro_v2021.2.1.jar'
+		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"C:\Users\siddh\Downloads\burp-suite\loader.jar" -noverify -jar "C:\Users\Siddharth\Downloads\burp-suite\burpsuite_pro_v2021.2.1.jar"
 	**2.2 Run this command for Linux in Terminal. Suppose Your files are in /home/Siddharth/Downloads/burp-suite/**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar
+		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar &
 	----------------------------------------------
 	**3. Use keygen.jar to generate the License key**
 		java -jar keygen.jar
@@ -31,9 +31,9 @@
 	**5.1 For Windows Follow These Steps**
 		1. Open Notepad and Paste command at 2.1 and save the file with name burp.bat in C:\Users\Siddharth\Downloads\burp-suite\   Folder.
 		2. Open another Notepad and Paste below command and save it with burp.VBS extension in Desktop.
-			-->	Set WshShell = CreateObject("WScript.Shell")
-			-->	WshShell.Run chr(34) & "C:\Users\Siddharth\Downloads\burp-suite\burp.bat" & Chr(34), 0
-			-->	Set WshShell = Nothing
+			Set WshShell = CreateObject("WScript.Shell")
+			WshShell.Run chr(34) & "C:\Users\Siddharth\Downloads\burp-suite\burp.bat" & Chr(34), 0
+			Set WshShell = Nothing
 	**5.2 For Linux Follow these Steps**
 		1. With Sudo Permissions, Create a file with command "gedit /bin/burp"
 		2. Paste command in text editor "java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar &"
