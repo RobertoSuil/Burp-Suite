@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------------------
-						**Prequisites**
+					**Prequisites**
 	Download .jar file for Burp Suite Pro from**
 		https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar
 		
@@ -9,7 +9,7 @@
 
 
 --------------------------------------------------------------------------------------------
-						**Windows Burp Suite Professional Installation**
+				**Windows Burp Suite Professional Installation**
 	1. Place all files in 1 folder**
 		For Example lets take as --> C:\Users\Siddharth\Downloads\burp-suite\
 	2 Run This Command for Windows in CMD Prompt.
@@ -26,12 +26,12 @@
 
 
 --------------------------------------------------------------------------------------------
-						**Kali-Linux** 
+					**Kali-Linux** 
 	--> Execute Kali_Linux_Setup as root user
 
 
 --------------------------------------------------------------------------------------------
-						**Activate Burp Suite Pro** 
+					**Activate Burp Suite Pro** 
 	1. Modify License String like "license to Siddharth"
 	2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
 	3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
