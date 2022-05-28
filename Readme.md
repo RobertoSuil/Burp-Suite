@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------------------
 						**Prequisites**
 	Download .jar file for Burp Suite Pro from**
-		https://portswigger.net/burp/releases/professional/latest
+		https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar
+		
 	If using in Windows 10, Download and Install Java and JDK**
 		For Java --> https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605
 		For JDK  --> https://www.oracle.com/in/java/technologies/javase-jdk15-downloads.html
@@ -21,9 +22,7 @@
 			Set WshShell = CreateObject("WScript.Shell")
 			WshShell.Run chr(34) & "C:\Users\Siddharth\Downloads\burp-suite\burp.bat" & Chr(34), 0
 			Set WshShell = Nothing
-			
---------------------------------------------------------------------------------------------
-	5 For Executing Burp in Windows, Double Click on burp.VBS file.
+	5 For Executing Burp Suite Pro, Double Click on burp.VBS file.		
 
 
 --------------------------------------------------------------------------------------------
@@ -36,5 +35,5 @@
 	1. Modify License String like "license to Siddharth"
 	2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
 	3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
-	4. Copy License Request from BurpSuite_Pro and paste in keygen.jar
-	5. Copy license response from keygen.jar and paste in BurpSuite_Pro, and next and Done
+	4. Copy License Request from BurpSuite_Pro and paste in Keygenerator.
+	5. Copy license response from Keygenerator and paste in Burp Suite Pro, then next and Done.
