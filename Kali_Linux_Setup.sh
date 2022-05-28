@@ -9,7 +9,7 @@ if [[ $EUID -eq 0 ]]; then
     clear
     wget $latest_burp -O Page -b
     version=$(less Page|grep 'version=' |cut -d '=' -f 5|cut -d '&' -f 1|head -1)
-    rm page
+    rm Page
     sleep 50
     clear
     
