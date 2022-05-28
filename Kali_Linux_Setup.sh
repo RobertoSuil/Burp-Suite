@@ -1,9 +1,5 @@
 #!/bin/bash
 if [[ $EUID -eq 0 ]]; then
-    mkdir Burp_Suite_Pro
-    chown $whoami Burp_Suite_Pro
-    cd Burp_Suite_Pro
-
     # Check for Latest Version
     echo "Checking Latest Burp Professional Version"
     wget https://portswigger.net/burp/releases/professional/latest -O Page -b
