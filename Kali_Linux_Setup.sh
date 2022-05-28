@@ -10,7 +10,7 @@ if [[ $EUID -eq 0 ]]; then
     wget $latest_burp -O Page -b
     version=$(less Page|grep 'version=' |cut -d '=' -f 5|cut -d '&' -f 1|head -1)
     rm page
-    sleep 1
+    sleep 50
     clear
     
     # Download Burp Suite Profesional Latet Version
