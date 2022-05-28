@@ -18,14 +18,6 @@ if [[ $EUID -eq 0 ]]; then
     Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=$version&type=jar"
     wget "$Link" -O Burp_Suite_Pro.jar
     clear
-    
-    # Get Keygenerator and Keyloader files
-    echo "Downloading Keygenerator and Keyloader Files"
-    git clone https://github.com/SNGWN/Burp-Suite.git
-    mv Burp-Suite/* .
-    sleep 1
-    
-    clear
 
     # execute Keygenerator
     echo "Starting Keygenerator"
