@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------------------
-					**Prequisites**
+				**Prequisites**
 	Download .jar file for Burp Suite Pro from**
 		https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar
 		
-	If using in Windows 10, Download and Install Java and JDK**
+	If using in Windows OS, Download and Install Java and JDK**
 		For Java --> https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605
 		For JDK  --> https://www.oracle.com/in/java/technologies/javase-jdk15-downloads.html
 
@@ -26,12 +26,12 @@
 
 
 --------------------------------------------------------------------------------------------
-					**Kali-Linux** 
-	--> Execute Kali_Linux_Setup as root user
+				**Kali-Linux** 
+	--> Execute Kali_Linux_Setup.sh file as root user
 
 
 --------------------------------------------------------------------------------------------
-					**Activate Burp Suite Pro** 
+				**Activate Burp Suite Pro** 
 	1. Modify License String like "license to Siddharth"
 	2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
 	3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
