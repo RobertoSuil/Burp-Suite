@@ -27,8 +27,8 @@
 **5 For Executing Burp in Windows, Double Click on burp.VBS file.**
 
 
-################################ **Linux** ################################
-	--> Execute Config.sh as root user
+################################ **Kali-Linux** ################################
+	--> Execute Kali_Linux_Setup as root user
 
 
 ################################ **Activate Burp Suite Pro** ################################
