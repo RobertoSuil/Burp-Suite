@@ -1,1 +1,0 @@
-java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/Users/siddharthsangwan/Downloads/Burp-Suite/Burp_Suite_Pro/loader.jar -noverify -jar /Users/siddharthsangwan/Downloads/Burp-Suite/Burp_Suite_Pro/Burp_Suite_Pro.jar &
