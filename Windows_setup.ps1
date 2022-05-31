@@ -1,24 +1,24 @@
 # Name is Important
 echo "
-                   #####    #     #    #####    #     #   #     # 
-                  #     #   ##    #   #     #   #     #   ##    # 
-                  #         # #   #   #         #     #   # #   # 
-                   #####    #  #  #   #  ####   #  #  #   #  #  # 
-                        #   #   # #   #     #   #  #  #   #   # # 
-                  #     #   #    ##   #     #   #  #  #   #    ## 
-                   #####    #     #    #####     ## ##    #     # 
+                #####    #     #    #####    #     #   #     # 
+               #     #   ##    #   #     #   #     #   ##    # 
+               #         # #   #   #         #     #   # #   # 
+                #####    #  #  #   #  ####   #  #  #   #  #  # 
+                     #   #   # #   #     #   #  #  #   #   # # 
+               #     #   #    ##   #     #   #  #  #   #    ## 
+                #####    #     #    #####     ## ##    #     # 
 "
 
 # Downloading and Installing Necessary Files
 echo "`t`tDownnloading Java JDK-18 ...."
 wget "https://download.oracle.com/java/18/latest/jdk-18_windows-x64_bin.exe" -O jdk-18.exe
-echo "`n`t`tJDK-18 Downloaded, lets start the Installation process"
+echo "`n`n`t`tJDK-18 Downloaded, lets start the Installation process"
 start -wait jdk-18.exe
-echo "`n`t`tDownloading Java JRE ...."
+echo "`n`n`t`tDownloading Java JRE ...."
 wget "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246474_2dee051a5d0647d5be72a7c0abff270e" -O jre-8.exe
-echo "`n`t`tJRE-8 Downloaded, lets start the Installation process"
+echo "`n`n`t`tJRE-8 Downloaded, lets start the Installation process"
 start -wait jre-8.exe
-echo "`n`t`tDownloading Latest Burp Suite Professional ...."
+echo "`n`n`t`tDownloading Latest Burp Suite Professional ...."
 wget "https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar" -O Burp-Suite-Pro.jar
 
 
