@@ -1,3 +1,14 @@
+# Name is Important
+echo "
+                     #####  #     #  #####  #     # #     # 
+                    #     # ##    # #     # #  #  # ##    # 
+                    #       # #   # #       #  #  # # #   # 
+                     #####  #  #  # #  #### #  #  # #  #  # 
+                          # #   # # #     # #  #  # #   # # 
+                    #     # #    ## #     # #  #  # #    ## 
+                     #####  #     #  #####   ## ##  #     # 
+"
+
 # Downloading and Installing Necessary Files
 echo "`t`tDownnloading Java JDK-18 ...."
 wget "https://download.oracle.com/java/18/latest/jdk-18_windows-x64_bin.exe" -O jdk-18.exe
