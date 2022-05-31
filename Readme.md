@@ -6,6 +6,8 @@
 		Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process
 	--> Now Execute Windows_Setup.ps1 file to Complete Installation.
 		./Windows_Setup.ps1
+	--> For Start Menu Entry, copy **Burp-Suite-Pro.vbs** file into 
+		C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
 
 -----------------------------------------------------------------------------------------------------------------
 # Burp Suite Professional Installation steps for Kali-Linux 
