@@ -11,12 +11,15 @@ echo "Downloading Latest Burp Suite Professional ...."
 wget "https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar" -O Burp-Suite-Pro.jar
 
 
-# Lets Create a bat file for execution and VBS File to hide CMD from Background while running Burp
+# Creating Burp.bat file with command for execution
 new-item -path $pwd -name burp.bat
-add-content burp.bat 'java --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -javaagent:"' --NoNewline
-add-content burp.bat $pwd'\loader.jar"' -NoNewline
-add-content burp.bat '-jar "' -NoNewline
-add-content burp.bat $pwd'Burp-Suite-Pro.jar"'
+add-content burp.bat "java --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -javaagent:'" -NoNewline
+add-content burp.bat $pwd"\loader.jar'" -NoNewline
+add-content burp.bat "-jar '" -NoNewline
+add-content burp.bat $pwd"Burp-Suite-Pro.jar'"
+
+
+# Creating Burp-Suite-Pro.vbs File for background execution
 new-item -path $pwd -name Burp-Suite-Pro.vbs 
 add-content Burp-Suite-Pro.vbs 'Set WshShell = CreateObject("WScript.Shell")'
 add-content Burp-Suite-Pro.vbs "WshShell.Run chr(34) & '" -NoNewline
@@ -34,6 +37,7 @@ add-content createshortcut.vbs '$WScriptShell = New-Object -ComObject WScript.Sh
 add-content createshortcut.vbs '$Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)'
 add-content createshortcut.vbs '$Shortcut.TargetPath = $TargetFile'
 add-content createshortcut.vbs '$Shortcut.Save()'
+& cscript.exe createshortcut.vbs
 copy $home\Desktop\Burp-Suite-Pro.lnk 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Burp-Suite.lnk'
 
 
