@@ -1,18 +1,18 @@
 
 
 --------------------------------------------------------------------------------------------
-# Windows Burp Suite Professional Installation
+# Burp Suite Professional Installation steps for Windows
 	--> Open Powershell and execute below command to set Script Execution Policy.
 		Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process
 	--> Now Execute Windows_Setup.ps1 file to Complete Installation.
 		./Windows_Setup.ps1
 
 -----------------------------------------------------------------------------------------------------------------
-# Kali-Linux 
+# Burp Suite Professional Installation steps for Kali-Linux 
 	--> Execute Kali_Linux_Setup.sh file as root user
 
 -----------------------------------------------------------------------------------------------------------------
-# Activate Burp Suite Pro 
+# Burp Suite Pro Activation Steps 
 	1. Modify License String like "license to Siddharth"
 	2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
 	3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
