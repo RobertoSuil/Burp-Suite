@@ -29,3 +29,4 @@
 -----------------------------------------------------------------------------------------------------------------
 # Videos For Reference
 	--> Kali Linux :-: https://youtu.be/Gex6EQ4AKTA
+	--> Windows 10 :-: https://youtu.be/avWQzclViJU
