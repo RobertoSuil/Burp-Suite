@@ -27,6 +27,11 @@
 	--> Kali Linux :-: You can start Burp Suite Professional by writing **burp** in terminal.
 
 -----------------------------------------------------------------------------------------------------------------
-# Videos For Reference
-	--> Kali Linux :-: https://youtu.be/Gex6EQ4AKTA
-	--> Windows 10 :-: https://youtu.be/avWQzclViJU
+# Videos For Reference 
+	--> Kali Linux :-: Installing Burp Suite Professional in Kali Linux for Free
+[![Installing Burp Suite Professional in Kali Linux for Free](https://img.youtube.com/vi/Gex6EQ4AKTA/0.jpg)](https://www.youtube.com/watch?v=Gex6EQ4AKTA)
+
+
+
+	--> Windows 10 :-: Installing Burp Suite Professional in Windows Machine for Free
+[![Installing Burp Suite Professional in Windows Machine for Free](https://img.youtube.com/vi/avWQzclViJU/0.jpg)](https://www.youtube.com/watch?v=avWQzclViJU)
